@@ -1,0 +1,14 @@
+# numeros
+123 
+45 55 4
+{
+ ## solo texto
+ adf
+  sdf  dfd
+ 12 # línea con error
+}
+123 212 #numeros de nuevo
+(
+  ## hexadecimales
+  0x12AF 
+)

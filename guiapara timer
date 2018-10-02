@@ -1,0 +1,32 @@
+							   	   T0IE					  T0IF
+
+INTCON =>			1		0		1/0		0		0		1/0		0		0
+
+OPTION_REG => 		0		0		1		0		1		0		0		0						0x28
+
+TRISA =>			0xFF 
+
+-------------------------------
+
+INTCON 			= 	0x80	
+
+/PARA ENCENDERLO DEBE VALER 0xA0   bit set #5
+/apagar bandera BIT clear #2
+
+
+OPTIONR_REG 	= 	0x28
+
+TMR0			= 	0xEC		
+
+
+/0x04 no vector de interrupcion periferica
+
+
+
+
+Banco 1							Banco 0
+
+TMR0 							option reg
+porta							trisa
+portb							intcon
+

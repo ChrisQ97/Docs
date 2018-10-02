@@ -1,0 +1,43 @@
+S -> Aa | aS| SA | e
+A -> aa | aS| S
+
+eliminar el e
+
+S ->  Aa |	aS | SA  | a  | A
+
+A ->  aa | aS | S | a
+
+
+
+S --> S + S | S * S | (S) | ID
+
+Terminales > ID, +, *, (, )
+No terminales > S
+S > {S}
+
+
+									S
+								  / |  \
+								S	*	s 
+
+
+							ID	S 	* 	S
+
+								ID		ID
+
+
+ID + ID * ID * ID + ID
+
+
+									S
+
+
+						S 								S
+
+
+
+				S 			S 						S       S					 
+
+
+
+		S         S     	S       S		S       S 		S       S
